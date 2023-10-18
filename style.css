@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    cursor: url('./assets/cursor.png'), auto;
+}
+
+body {
+    background-image: url('./assets/background.png');
+}
+
+main {
+    padding-top: 20px;
+}
+
+.moles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mole {
+    width: 250px;
+    height: 250px;
+    background: black;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+}
+
+.mole:hover {
+    cursor: url('./assets/cursor-worm.png'), auto;
+}
+
+.mole img {
+    display: block;
+}
